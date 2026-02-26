@@ -29,7 +29,7 @@ import {
   updateRealTimeStatus,
 } from "./redux/slice/userSlice";
 import { useRef } from "react";
-export const serverUrl = "http://localhost:3002";
+export const serverUrl = "https://food-rush-backend.onrender.com";
 
 const App = () => {
   const { userData, socket, myOrders } = useSelector((store) => store.user);
